@@ -40,6 +40,14 @@ function preload(){
 
 
 if(food != undefined){
+  if(food.includes('á')){
+    const food2 = food.replace('a');
+    imgFood = loadImage(food2 + ".png");
+  }
+  if(food.includes('ó')){
+    const food2 = food.replace('o');
+    imgFood = loadImage(food2 + ".png");
+  }
   imgFood = loadImage(food + ".png"); // Load the image
 }
 console.log("phrase" + phrase);
