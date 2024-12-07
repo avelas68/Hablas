@@ -495,7 +495,7 @@ function draw() {
   background('#576eb5');
 
   if(level == 1 )
-   image(imgcatepillar,400,200,300,120);
+   image(imgcatepillar,300,200,300,120);
   if(level == 2)
     image(imgC, 100,200,300,350);
   if(level == 3)
