@@ -495,11 +495,11 @@ function draw() {
   background('#576eb5');
 
   if(level == 1 )
-    image(imgcatepillar,50,250,400,150);
+   image(imgcatepillar,100,250,300,120);
   if(level == 2)
-    image(imgC, 50,100,400,450);
+    image(imgC, 100,200,300,350);
   if(level == 3)
-    image(imgB, 50,100,400,450);
+    image(imgB, 100,150,300,350);
   fill('white');
   textSize(30);
   textFont("Raleway");
