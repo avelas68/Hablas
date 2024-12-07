@@ -148,7 +148,7 @@ if(phrase !="Empty"){
 
 
 function setup() {
-  createCanvas(500, 700);
+  createCanvas(1000, 500);
 
   // Create a new speech recognition object for Spanish
   myRec = new p5.SpeechRec('es-MX');
@@ -495,7 +495,7 @@ function draw() {
   background('#576eb5');
 
   if(level == 1 )
-   image(imgcatepillar,100,250,300,120);
+   image(imgcatepillar,400,200,300,120);
   if(level == 2)
     image(imgC, 100,200,300,350);
   if(level == 3)
