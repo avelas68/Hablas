@@ -180,8 +180,8 @@ function setup() {
 
   
 
-  let startButton = select('#startButton');
-  startButton.mousePressed(startAudio);
+  // let startButton = select('#startButton');
+  // startButton.mousePressed(startAudio);
 
   // // Attach clear storage functionality to the button
   // let clearButton = select('#clearStorageButton'); // Use select from p5.js
@@ -493,7 +493,9 @@ function Choices() {
 
 function draw() {
   background('#576eb5');
-
+  if (mouseIsPressed === true) {
+    startAudio();
+  }
   if(level == 1 )
    image(imgcatepillar,300,200,300,120);
   if(level == 2)
