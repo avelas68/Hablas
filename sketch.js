@@ -180,8 +180,8 @@ function setup() {
 
   
 
-  // let startButton = select('#startButton');
-  // startButton.mousePressed(startAudio);
+  let startButton = select('#startButton');
+  startButton.mousePressed(startAudio);
 
   // // Attach clear storage functionality to the button
   // let clearButton = select('#clearStorageButton'); // Use select from p5.js
@@ -676,7 +676,5 @@ function gotSpeech() {
   }
 
 }
-function mousePressed() {
-  startAudio();
-}
+
 
