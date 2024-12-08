@@ -215,9 +215,9 @@ if (`${pacificHour}` > 15 && `${pacificHour}` < 17) {
 if (`${pacificHour}` >= 17 && `${pacificHour}` <= 20) {
   GoodNight.play();
 }
-setTimeout(function(){
-  Directions.play();
-}, 7000);
+// setTimeout(function(){
+//   Directions.play();
+// }, 7000);
 setTimeout(function(){
   Choices();
 }, 21000);
