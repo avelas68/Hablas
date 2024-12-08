@@ -499,9 +499,9 @@ function draw() {
   if(level == 1 )
    image(imgcatepillar,300,200,300,120);
   if(level == 2)
-    image(imgC, 100,200,300,350);
+    image(imgC, 400,100,300,350);
   if(level == 3)
-    image(imgB, 100,150,300,350);
+    image(imgB, 400,150,300,350);
   fill('white');
   textSize(30);
   textFont("Raleway");
@@ -517,19 +517,19 @@ function draw() {
       background('#576eb5');
       textAlign(CENTER);
       textStyle(NORMAL);
-      text("Say/Diga: ",250,60);
+      text("Say/Diga: ",450,60);
       textStyle(BOLD);
-      text(food, 250,120);
-      image(imgFood,100,150, 300,300);
+      text(food, 450,120);
+      image(imgFood,300,150, 300,300);
     }
     if (level == 2 && phrase != "Empty" && phrase !=undefined) {
       background('#576eb5');
       textAlign(CENTER);
       textStyle(NORMAL);
-      text("Say/Diga: ",250,60);
+      text("Say/Diga: ",450,60);
       textStyle(BOLD);
-      text(phrase, 250,120);
-      image(imgPhrase,100,150, 300,300);
+      text(phrase, 450,120);
+      image(imgPhrase,300,150, 300,300);
     }
 }
 function startAudio() {
