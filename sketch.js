@@ -148,7 +148,7 @@ if(phrase !="Empty"){
 
 
 function setup() {
-  createCanvas(1000, 500);
+  createCanvas(windowWidth, windowHeight);
 
   // Create a new speech recognition object for Spanish
   myRec = new p5.SpeechRec('es-MX');
