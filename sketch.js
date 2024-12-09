@@ -535,9 +535,9 @@ function startAudio() {
   if (!recognitionRunning) {
     recognitionRunning = true;
 
-    setTimeout(function(){
+    // setTimeout(function(){
       Greetings();
-    }, 15000);
+    // }, 15000);
   }
 }
 
