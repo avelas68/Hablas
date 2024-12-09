@@ -181,8 +181,11 @@ function setup() {
   
 
   let startButton = select('#startButton');
-  startButton.mousePressed(startAudio);
+  // startButton.mousePressed(startAudio);
 
+  setTimeout(function(){
+  startButton.mousePressed(startAudio);
+}, 21000);
   // // Attach clear storage functionality to the button
   // let clearButton = select('#clearStorageButton'); // Use select from p5.js
   // clearButton.mousePressed(clearLocalStorage);
