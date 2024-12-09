@@ -221,7 +221,7 @@ if (`${pacificHour}` >= 17 && `${pacificHour}` <= 20) {
 // }, 7000);
 setTimeout(function(){
   Choices();
-}, 21000);
+}, 44000);
 }
 function Choices() {
   SorryCount = 0;
