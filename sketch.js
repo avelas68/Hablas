@@ -22,7 +22,8 @@ let level = 1;
 let i;
 var result;
 let phrase1 = "Empty";
-
+let caterpillarStartPos = 300;
+let movingCaterpillar;
 
 //let imgFood;
 
