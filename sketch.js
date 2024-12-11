@@ -122,7 +122,7 @@ if(phrase !="Empty"){
   SnackTwo.push(loadSound("I_want_nuts.mp3"));
   SnackTwo.push(loadSound("I_want_chocolate.mp3"));
   SnackTwo.push(loadSound("I_want_an_apple.mp3"));
-  SnackTwo.push(loadSound("I_want_a_banana.mp3"));
+  SnackTwo.push(loadSound("I_want_an_orange.mp3"));
   LunchTwo.push(loadSound("I_want_rice.mp3"));
   LunchTwo.push(loadSound("I_want_soup.mp3"));
   LunchTwo.push(loadSound("I_want_a_hamburger.mp3"));
@@ -487,7 +487,7 @@ function Choices() {
         if (num == 4) {
           SnackTwo[4].play();
           SnackTwo[4].onended(startRecognition);
-          phrase = "Yo quiero uno plátano";
+          phrase = "Yo quiero una naranja";
         }
         preload(phrase);
       }
