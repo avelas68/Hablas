@@ -89,6 +89,7 @@ if(phrase !="Empty"){
   imgsopa = loadImage("sopa.png");
   imgespagueti = loadImage("espagueti.png");
   imgpavo = loadImage("pavo.png");
+  imgnaranja = loadImage("naranja.png");
 
 
   Breakfast.push(loadSound("Beans.mp3"));
@@ -100,7 +101,7 @@ if(phrase !="Empty"){
   Snack.push(loadSound("Nuts.mp3"));
   Snack.push(loadSound("Chocolate.mp3"));
   Snack.push(loadSound("Apple.mp3"));
-  Snack.push(loadSound("Banana.mp3"));
+  Snack.push(loadSound("Orange.mp3"));
   Lunch.push(loadSound("Rice.mp3"));
   Lunch.push(loadSound("Soup.mp3"));
   Lunch.push(loadSound("Hamburger.mp3"));
@@ -458,7 +459,7 @@ function Choices() {
         if (num == 4) {
           Snack[4].play();
           Snack[4].onended(startRecognition);
-          food = "plátano";
+          food = "naranja";
         }
         preload(food);
         break;
