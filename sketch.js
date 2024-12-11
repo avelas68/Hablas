@@ -498,9 +498,9 @@ function draw() {
   if(level == 1 )
    image(imgcatepillar,300,200,300,120);
   if(level == 2)
-    image(imgC, 400,100,300,350);
+    image(imgC, 300,50,300,400);
   if(level == 3)
-    image(imgB, 400,150,300,350);
+    image(imgB, 300,50,300,400);
   fill('white');
   textSize(30);
   textFont("Raleway");
