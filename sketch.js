@@ -63,6 +63,8 @@ if(phrase !="Empty"){
   else
   imgPhrase = loadImage(phrase.substring(10, phrase.length) + ".png");
 }
+  movingCaterpillar = loadImage("caterpillar.gif");
+  imgLeaf = loadImage("leaf.png");
 
   imgEmpty = loadImage("Empty.png");
   imgcatepillar =  loadImage('catepillar.png'); 
@@ -496,7 +498,8 @@ function draw() {
   background('#576eb5');
   
   if(level == 1 )
-   image(imgcatepillar,300,200,300,120);
+    image(imgLeaf,300,200,300,120);
+    image(movingCaterpillar, caterpillarStartPos, 175,200,75);
   if(level == 2)
     image(imgC, 300,50,300,400);
   if(level == 3)
