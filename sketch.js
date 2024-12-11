@@ -316,7 +316,7 @@ function Choices() {
         preload(phrase);
       }
     }
-  if (`${pacificHour}` >= 11 && `${pacificHour}` <= 15) {
+  if (`${pacificHour}` >= 11 && `${pacificHour}` < 15) {
     switch (level) {
       case 1:
         if (num == 0) {
@@ -434,7 +434,7 @@ function Choices() {
         preload(phrase);
     }
   }
-  if (`${pacificHour}` > 15 && `${pacificHour}` < 17) {
+  if (`${pacificHour}` >= 15 && `${pacificHour}` < 17) {
     switch (level) {
       case 1:
         if (num == 0) {
