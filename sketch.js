@@ -24,6 +24,8 @@ var result;
 let phrase1 = "Empty";
 let caterpillarStartPos = 300;
 let movingCaterpillar;
+let startButton;
+
 
 //let imgFood;
 
@@ -184,8 +186,19 @@ function setup() {
 
   
 
-  let startButton = select('#startButton');
-  startButton.mousePressed(startAudio);
+ startButton = createButton('Start');
+ startButton.id('startButton');
+ startButton.mousePressed(() => {
+   startAudio();
+   startButton.hide();
+ });
+  // ✅ Add the Refresh button using p5.js
+  let refreshButton = createButton('🔄 Refresh');
+  refreshButton.id('refreshButton');
+  refreshButton.position(windowWidth / 2 - 50, windowHeight / 2 + 50); // Adjust position
+  refreshButton.mousePressed(() => {
+    location.reload();
+  });
 
 
   // // Attach clear storage functionality to the button
@@ -684,5 +697,3 @@ function gotSpeech() {
   }
 
 }
-
-
