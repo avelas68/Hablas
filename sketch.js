@@ -225,7 +225,7 @@ if (`${pacificHour}` >= 17 && `${pacificHour}` <= 20) {
 // }, 7000);
 setTimeout(function(){
   Choices();
-}, 44000);
+}, 20000);
 }
 function Choices() {
   SorryCount = 0;
@@ -375,7 +375,7 @@ function Choices() {
         preload(phrase);
       }
     }
-  if (`${pacificHour}` >= 17 && `${pacificHour}` <= 20) {
+  if (`${pacificHour}` >= 17 && `${pacificHour}` <= 24) {
     switch (level) {
       case 1:
         if (num == 0) {
